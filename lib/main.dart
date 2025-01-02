@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:simay/convert.dart';
+import 'package:Nutzz_Momen/convert.dart';
 
 import 'my_home_page.dart';
 
@@ -13,7 +13,7 @@ class MyApp extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return MaterialApp(
-      title: 'Simay',
+      title: 'Nutzz Momen',
       theme: ThemeData(
         primaryColor:  createMaterialColor(Color(0xFF3EC5EA)),
       ),

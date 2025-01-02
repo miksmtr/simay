@@ -1,9 +1,9 @@
 import 'package:flutter/material.dart';
-import 'package:simay/collaborations_page.dart';
-import 'package:simay/events_page.dart';
-import 'package:simay/recipes_page.dart';
-import 'package:simay/stores_page.dart';
-import 'package:simay/qr_code_page.dart';
+import 'package:Nutzz_Momen/collaborations_page.dart';
+import 'package:Nutzz_Momen/events_page.dart';
+import 'package:Nutzz_Momen/recipes_page.dart';
+import 'package:Nutzz_Momen/stores_page.dart';
+import 'package:Nutzz_Momen/qr_code_page.dart';
 
 class GridSection extends StatelessWidget {
   const GridSection({super.key});

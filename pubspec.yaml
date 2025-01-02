@@ -1,5 +1,5 @@
-name: simay
-description: "A new Flutter project."
+name: Nutzz_Momen
+description: "Nutzz Momen"
 # The following line prevents the package from being accidentally published to
 # pub.dev using `flutter pub publish`. This is preferred for private packages.
 publish_to: 'none' # Remove this line if you wish to publish to pub.dev
@@ -45,8 +45,10 @@ dev_dependencies:
 flutter_launcher_icons:
   android: "launcher_icon"
   ios: true
-  min_sdk_android: 21 # android min sdk min:16, default 21
   image_path: "assets/logo.png"
+  min_sdk_android: 21 # android min sdk min:16, default 21
+  adaptive_icon_background: "#ffffff" # only available for Android 8.0 devices and above
+  adaptive_icon_foreground: "assets/logo.png" # only available for Android 8.0 devices and above
   # rules and activating additional ones.
   flutter_lints: ^4.0.0
 
