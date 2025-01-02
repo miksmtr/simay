@@ -9,7 +9,8 @@ class LogoSection extends StatelessWidget {
       flex: 1,
       child: Container(
         alignment: Alignment.center,
-        child: Image.asset('banner.jpg'), // Logo dosyanızın yolu
+        child: Image.asset('assets/banner.jpg', fit: BoxFit.cover),
+// Logo dosyanızın yolu
       ),
     );
   }
